@@ -1,0 +1,9 @@
+*{
+    background-color: rgb(78, 60, 60);
+}
+.sprite{
+    height: 134px;
+    background-image: url(sprite.jpeg);
+    background-repeat: no-repeat;
+    background-position: 0px -18px;
+}

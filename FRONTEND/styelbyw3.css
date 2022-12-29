@@ -1,0 +1,28 @@
+*{
+    padding:0;
+}
+body{
+    
+    /*this is just an comment which is not gonna be
+    showed or this line doesn't act like any code */
+    background-image:url("background.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    opacity: 0.4;
+    
+
+
+
+}
+.foxbox{
+    height: 200px;
+    background-image:url("FOX.png");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+h{
+    color:red;
+}

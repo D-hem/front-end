@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.navbar{
+    margin-top: 10px;
+    font-family:  cursive;
+}
+.navbar ul{
+    background-color: rgb(218, 200, 176);
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.midarea{
+    width: 100%;
+    float: left;
+}
+.midbox{
+    float: left;
+    padding: 10px;
+}
+.midbox1 , .midbox3{
+    width: 25%;
+    background-color: blanchedalmond;
+    height: 300px;
+}
+.midbox2{
+    width: 50%;
+    background-color: bisque;
+    height: 300px;
+}
+
+@media screen and (max-width:500px) {
+    .navbar a{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    .midbox{
+        width: 100%;
+        text-align: center;
+    }
+}

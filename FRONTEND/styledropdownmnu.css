@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hwb(180 5% 69%);
+}
+.dropdown{
+    margin: 30px 40px;
+}
+.dropdown button{
+   padding: 15px 80px;
+   font-size: 30px;
+   font-family: cursive;
+}
+.opt{
+    display: none;
+}
+.opt ul li{
+    list-style: none;
+    backgroundd-color: aliceblue;
+    widtdh: 264px;
+}
+.opt a{
+    display: block;
+    padding: 20px 30px;
+    width: 264px;
+    background-color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+}
+.dropdown:hover .opt{
+    display: block;
+}
